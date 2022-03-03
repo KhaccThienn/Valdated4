@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <div class="logo-img">
+                    <img src="/Data/logo.png" alt="" class="card-img" id="logo_img">
+                </div>
+            </div>
+            <div class="contact">
+                <div class="logo-phone">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="number-phone">
+                    Hot Line: 0392689213
+                </div>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="">Ve May Bay</a></li>
+                    <li><a href="">Tiep Vien</a></li>
+                    <li><a href="">Dang Nhap</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- end header here -->
+        <div class="main">
+            <img src="/Data/tamako-market-2.jpg" alt="" class="card-img">
+            <div class="form-group">
+                <div class="form-header">
+                    <p>Dat Ve May Bay</p>
+                </div>
+                <div class="form-input">
+                    <form action="#">
+
+                        <span id="_name"></span>
+                        <input type="text" placeholder="Name" id="name" class="input" onblur="submit()">
+
+                        <span id="_email"></span>
+                        <input type="email" placeholder="Email" id="email" class="input" onclick="submit()">
+
+                        <span id="_add"></span>
+                        <input type="text" placeholder="Dia chi" id="add">
+
+                        <span id="_tel"></span>
+                        <input type="tel" placeholder="Sdt" id="tel">
+
+                        <span id="_day"></span>
+                        <input type="text" placeholder="Ngay khoi hanh" id="day">
+                        <button>Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/Js/app.js"></script>
+</body>
+</html>
